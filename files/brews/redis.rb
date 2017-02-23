@@ -3,7 +3,7 @@ require 'formula'
 class Redis < Formula
   homepage 'http://redis.io/'
   url 'http://download.redis.io/releases/redis-2.8.6.tar.gz'
-  sha1 '8680046580c75987961241f2e1e417c242b91a49'
+  sha256 'efd0c9cb8d2696db44d8cb8309fed96607f68b93bb126615e64bff364e716658'
 
   version '2.8.6-boxen1'
 
