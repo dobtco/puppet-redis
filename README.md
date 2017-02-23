@@ -2,6 +2,13 @@
 
 [![Build Status](https://travis-ci.org/boxen/puppet-redis.png?branch=master)](https://travis-ci.org/boxen/puppet-redis)
 
+## Fork
+We forked `boxen/puppet-redis` because we need to use a specific version of redis (the one in puppet-redis 3.1.0), but that version uses the oudated `sha1` directive in its brewfile.
+This fork updates 3.1.0 to use the `sha256` directive. To pull it into your boxen repo, put the following in your boxen Puppetfile:
+```
+github "redis", "3.1.1", repo: "dobtco/puppet-redis"`
+```
+
 ## Usage
 
 ```puppet
